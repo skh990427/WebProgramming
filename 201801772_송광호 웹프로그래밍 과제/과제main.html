@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NEXON 기업 소개</title>
+	<link href="media/넥슨아이콘.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" href="css/mainstyle.css">
+	<script src="js/mainjs.js"></script>
+</head>
+<body background="./media/바람의 나라 배경.jpg" onload="startClock(), init()" >
+	<img src="./media/넥슨로고_가로.png" title="넥슨의 로고 입니다." alt="넥슨의 로고"><br>
+	<hr style="width: 50%; background-color: white;"><br>
+	<table>
+		<tbody>
+			<tr>
+				<td rowspan="2">
+					<div id="draw">
+						<strong>넥슨 게임 캐릭터를 그려보세요!</strong>
+					</div>
+					<canvas id="myCanvas" style="background: aliceblue" width="400" height="400"></canvas><br>
+   					<span>선굵기 : </span><input type="text" id="lineWidth" size="5"> 
+   					<span>선 색 : </span><input type="color" id="color">
+				</td>
+				<td><a href="media/기업소개.html"><div class="menu" id="기본1"><strong>기업 소개</strong></div></a>
+				</td>
+				<td><a href="media/넥슨게임소개.html"><div class="menu" id="기본2"><strong>넥슨 게임 소개</strong></div></a></td>
+				<td rowspan="2"><div class="video"><strong>NEXON 홍보 영상</strong>
+					<iframe src="https://www.youtube.com/embed/l4h7cBKv3dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div></td>
+			</tr>
+			<tr>
+				<td><a href="media/기업상세소개.html"><div class="menu" id="기본3"><strong>기업 상세 소개</strong></div></a></td><td><div onclick="gotoGit()" class="menu" id="기본4"><strong>GitHub</strong></div></td>
+			</tr>
+		</tbody>
+	</table>
+	<div id="fixed_clock"></div>
+	<script src="js/clock.js"></script>
+	<div id="fixed"><strong>201801772_송광호 웹 프로그래밍 과제</strong></div>
+</body>
+</html>

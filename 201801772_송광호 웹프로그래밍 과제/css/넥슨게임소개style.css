@@ -1,0 +1,47 @@
+		body
+		{
+			background-size: cover;
+		}
+		#board
+		{
+			padding: 20px;
+			margin: 0 auto;
+			width: 50%;
+			height: 300px;
+			background-color: #FBE5D6;
+			opacity: 95%;
+			border-radius: 50px;
+		}
+		#fixed
+		{
+			position: fixed;
+			top: 100px;
+			left: 10px;
+			background-color: aliceblue;
+			opacity: 80%;
+			color: black;
+			font-size: 30px;
+			border-radius: 20px;
+			cursor: pointer;
+			padding: 15px;
+		}
+		#fixed:hover
+		{
+			background-color: blueviolet;
+			color: white;
+		}
+		ul
+		{
+			list-style: none;
+			font-size: 20px;
+		}
+		img
+		{
+			display: block;
+			margin: auto;
+		}
+		hr
+		{
+			width: 50%;
+			background-color: white;
+		}

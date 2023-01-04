@@ -1,0 +1,130 @@
+		img
+		{
+			display: block; margin: auto;
+		}
+		
+		body
+		{
+			background-size: cover;
+		}
+
+		a
+		{
+			text-decoration: none;
+		}
+
+		#fixed
+		{
+			position: fixed;
+			bottom: 10px;
+			right: 10px;
+			background-color: aliceblue;
+			opacity: 80%;
+			color: black;
+			font-size: 30px;
+		}
+		#fixed_clock
+		{
+			font-size: 17px;
+			position: fixed;
+			top: 30px;
+			left: 20px;
+			display : inline-block;
+			border: 1px solid gray;
+			background-color: aliceblue;
+			opacity: 85%;
+		}
+		.video
+		{
+			text-align: center;
+			background-color: aliceblue;
+			color: black;
+			font-size: 30px;
+			border-radius: 20px;
+			margin: 20px;
+			width: 450px;
+			height: 295px;
+			opacity: 95%;
+
+
+		}
+		.menu
+		{
+			text-align: center;
+			color: black;
+			font-size: 30px;
+			border-radius: 50px;
+			margin: 20px;
+			width: 334px;
+			height: 215px;
+			opacity: 95%;
+		}
+		#기본1
+		{
+			background-image: url("../media/기본1.png");
+		}
+		#기본1:hover
+		{
+			background-image: url("../media/마우스1.png");
+			color: white;
+			text-shadow: 0px 0px 3px black;
+			cursor: pointer;
+		}
+
+		#기본2
+		{
+			background-image: url("../media/기본2.png");
+		}
+		#기본2:hover
+		{
+			background-image: url("../media/마우스2.png");
+			color: white;
+			text-shadow: 0px 0px 3px black;
+			cursor: pointer;
+		}
+
+		#기본3
+		{
+			background-image: url("../media/기본3.png");
+		}
+		#기본3:hover
+		{
+			background-image: url("../media/마우스3.png");
+			color: white;
+			text-shadow: 0px 0px 3px black;
+			cursor: pointer;
+		}
+
+		#기본4
+		{
+			background-image: url("../media/기본4.png");
+		}
+		#기본4:hover
+		{
+			background-image: url("../media/마우스4.png");
+			color: white;
+			text-shadow: 0px 0px 3px black;
+			cursor: pointer;
+		}
+		#draw
+		{
+			text-align: center;
+			font-size: 20px;
+			background-color: white;
+			border = 1px solid black;
+		}
+		span
+		{
+			color: white;
+			text-shadow: 0px 0px 3px white;
+		}
+		iframe
+		{
+			border-radius: 20px;
+			width: 400px;
+			height: 225px;
+		}
+		table
+		{
+			margin: 0 auto;
+		}

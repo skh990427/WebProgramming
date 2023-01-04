@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NEXON 기업 소개</title>
+	<link href="넥슨아이콘.ico" rel="shortcut icon" type="image/x-icon"></title>
+	<link rel="stylesheet" href="../css/넥슨게임소개style.css">
+	<script src="../js/넥슨게임소개js.js"></script>
+</head>
+<body background="바람의 나라 배경.jpg">
+	<img src="넥슨로고_가로.png" title="넥슨의 로고 입니다." alt="넥슨의 로고"><br>
+	<hr>
+	<br>
+	
+	<form>
+		<div id="board">
+			<strong>검색할 게임 종류 : </strong><input id="game" onkeyup="printGame()" placeholder="RPG, FPS, 캐주얼">
+			<div id="result" style="font-size: 20px;"></div>
+		</div>
+	</form>
+	<div id="fixed" onclick="gotoMain()">
+		메인으로 돌아가기
+	</div>
+</body>
+</html>
